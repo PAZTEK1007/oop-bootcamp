@@ -1,9 +1,9 @@
 # oop-bootcamp
-Ce référentiel contient le code source et les ressources pour un bootcamp sur la programmation orientée objet (POO).
+Ce référentiel contient le code source et les ressources pour des exercices sur la programmation orientée objet (POO).
 
 ## Objectif
 
-L'objectif de ce bootcamp est de vous familiariser avec les concepts fondamentaux de la POO et de vous aider à développer des compétences solides en programmation orientée objet.
+L'objectif de cette exercice est de vous familiariser avec les concepts fondamentaux de la POO et de vous aider à développer des compétences solides en programmation orientée objet.
 
 ## Contenu
 
