@@ -14,14 +14,4 @@ Le référentiel comprend les éléments suivants :
 - `/exercice-3` : Ce répertoire contient le troisième exercice du oop-bootcamp
 - `/exercice-4` : Ce répertoire contient le quatrième exercice du oop-bootcamp
 
-## Prérequis
-
-Avant de commencer ce bootcamp, il est recommandé d'avoir une connaissance de base en programmation et de comprendre les concepts de base tels que les variables, les fonctions et les structures de contrôle.
-
-## Comment utiliser ce référentiel
-
-1. Clonez ce référentiel sur votre machine locale.
-2. Naviguez vers le répertoire du projet.
-3. Exécutez les exemples de code pour voir comment les concepts de la POO sont mis en œuvre.
-4. Consultez la documentation pour obtenir des informations détaillées sur chaque concept.
 
