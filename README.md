@@ -1,4 +1,4 @@
-# oop-bootcamp
+# Object Oriented Programming Bootcamp
 Ce référentiel contient le code source et les ressources pour des exercices sur la programmation orientée objet (POO).
 
 ## Objectif
@@ -14,4 +14,7 @@ Le référentiel comprend les éléments suivants :
 - `/exercice-3` : Ce répertoire contient le troisième exercice du oop-bootcamp
 - `/exercice-4` : Ce répertoire contient le quatrième exercice du oop-bootcamp
 
+## Utilisation
 
+- Consultez les différents fichiers pour voir les exemples de code.
+- Exécutez les fichiers pour voir les résultats.
