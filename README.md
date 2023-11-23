@@ -9,10 +9,10 @@ L'objectif de cette exercice est de me familiariser avec les concepts fondamenta
 
 Le référentiel comprend les éléments suivants :
 
-- `/exercice-1` : Ce répertoire contient le premier exercice du oop-bootcamp
-- `/exercice-2` : Ce répertoire contient le deuxième exercice du oop-bootcamp
-- `/exercice-3` : Ce répertoire contient le troisième exercice du oop-bootcamp
-- `/exercice-4` : Ce répertoire contient le quatrième exercice du oop-bootcamp
+- `/exercice-1.php` : Ce répertoire contient le premier exercice du oop-bootcamp
+- `/exercice-2.php` : Ce répertoire contient le deuxième exercice du oop-bootcamp
+- `/exercice-3.php` : Ce répertoire contient le troisième exercice du oop-bootcamp
+- `/exercice-4.php` : Ce répertoire contient le quatrième exercice du oop-bootcamp
 
 ## Utilisation
 
