@@ -93,82 +93,88 @@ $class2B = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Exercice 4</title>
 </head>
 <body>
-    <h3>Class 1A</h3>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Grade</th>
-            <th>Class</th>
-        </tr>
-    <?php 
+    <div id="firstContainer">
+        <h3>Class 1A</h3>
+        <table id="table1">
+            <tr>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Class</th>
+            </tr>
+        <?php 
 
-        foreach($class1A as $student) 
-        {
-            echo $student->getInfo();
-        }
+            foreach($class1A as $student) 
+            {
+                echo $student->getInfo();
+            }
 
-    ?>
-    </table>
-    <?php echo '<p>Average score of class 1A: ' . average($class2B) . '/10</p>'; ?>
-    <h3>Class 2B</h3>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Grade</th>
-            <th>Class</th>
-        </tr>
-    <?php
-      foreach($class2B as $student) 
-        {
-            echo $student->getInfo();
-        }
-    ?>
-    </table>
-    <?php echo '<p>Average score of class 2B: ' . average($class2B) . '/10</p>';
+        ?>
+        </table>
+        <?php echo '<p>Average score of class 1A: ' . average($class1A) . '/10</p>'; ?>
+        <h3>Class 2B</h3>
+        <table id="table2">
+            <tr>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Class</th>
+            </tr>
+        <?php
+        foreach($class2B as $student) 
+            {
+                echo $student->getInfo();
+            }
+        ?>
+        </table>
+   
+    <?php echo '<p>Average score of class 2B: ' . average($class2B) . '/10</p>'; ?>
     
-    $topStudent = topStudent($class1A);
-    $lowestStudent = lowestStudent($class2B);
+    </div>
+    <?php
+        $topStudent = topStudent($class1A);
+        $lowestStudent = lowestStudent($class2B);
 
-    move($class1A, $class2B, $topStudent);
-    move($class2B, $class1A, $lowestStudent);
+        move($class1A, $class2B, $topStudent);
+        move($class2B, $class1A, $lowestStudent);
     
     ?>
+    <div id="secondContainer">
+        <h3>Class 1A After Move</h3>
+        <table id="table3">
+            <tr>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Class</th>
+            </tr>
+        <?php 
 
-    <h3>Class 1A After Move</h3>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Grade</th>
-            <th>Class</th>
-        </tr>
-    <?php 
+            foreach($class1A as $student) 
+            {
+                echo $student->getInfo();
+            }
 
-        foreach($class1A as $student) 
-        {
-            echo $student->getInfo();
-        }
-
-    ?>
-    </table>
-    <?php echo '<p>Average score of class 1A After Move: ' . average($class2B) . '/10</p>'; ?>
-    <h3>Class 2B After Move</h3>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Grade</th>
-            <th>Class</th>
-        </tr>
-    <?php
-      foreach($class2B as $student) 
-        {
-            echo $student->getInfo();
-        }
-    ?>
-    </table>
-    <?php echo '<p>Average score of class 2B After Move: ' . average($class2B) . '/10</p>'; ?>
-
+        ?>
+        </table>
+        <?php echo '<p>Average score of class 1A After Move: ' . average($class1A) . '/10</p>'; ?>
+        <h3>Class 2B After Move</h3>
+        <table id="table4">
+            <tr>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Class</th>
+            </tr>
+        <?php
+        foreach($class2B as $student) 
+            {
+                echo $student->getInfo();
+            }
+        ?>
+        </table>
+       
+        <?php echo '<p>Average score of class 2B After Move: ' . average($class2B) . '/10</p>'; ?>
+        </div>
 </body>
 </html>

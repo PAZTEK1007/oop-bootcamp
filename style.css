@@ -1,0 +1,41 @@
+#firstContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+#secondContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+#table1, #table2, #table3, #table4{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+p{
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h3{
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0;
+
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
